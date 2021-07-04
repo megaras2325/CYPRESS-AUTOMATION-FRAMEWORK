@@ -1,0 +1,20 @@
+{
+    "baseUrl": "https://giphy.com/",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout": 30000,
+    "viewportHeight": 1080,
+    "viewportWidth": 1920,
+    "ignoreTestFiles": "same*.js",
+    "screenshotsFolder": "cypress/screenshots",
+    "videosFolder": "cypress/videos/testExecutionVideos",
+    "env": {
+        "giphy_homepage": "https://giphy.com/",
+        "RETRIES": 5
+    },
+    "projectId": "giphyTeamFlow",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+}
